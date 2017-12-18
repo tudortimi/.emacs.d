@@ -1,4 +1,5 @@
-(setq verilog-auto-indent-on-newline nil)
+(setq verilog-auto-endcomments nil)
+(setq verilog-auto-newline nil)
 (setq verilog-highlight-p1800-keywords t)
 (setq verilog-indent-level 2)
 (setq verilog-indent-level-behavioral 2)
