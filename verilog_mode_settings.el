@@ -6,3 +6,5 @@
 (setq verilog-indent-level-declaration 2)
 (setq verilog-indent-level-directive 2)
 (setq verilog-indent-level-module 2)
+
+(add-to-list 'auto-mode-alist '("\\.svh\\'" . verilog-mode))
