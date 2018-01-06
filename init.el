@@ -3,3 +3,6 @@
 
 (setq inhibit-startup-screen t)
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+(setq backup-directory-alist `((".*" . ,temporary-file-directory)))
+(setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
